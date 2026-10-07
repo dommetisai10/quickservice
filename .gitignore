@@ -1,0 +1,25 @@
+# Environment files
+.env
+*.env
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Python
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
